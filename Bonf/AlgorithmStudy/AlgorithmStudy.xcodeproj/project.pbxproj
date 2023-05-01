@@ -33,6 +33,9 @@
 		18A39803295868E700BBF7C2 /* BcterialGrowth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A39802295868E700BBF7C2 /* BcterialGrowth.swift */; };
 		18A3980529586A3500BBF7C2 /* ThreePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3980429586A3500BBF7C2 /* ThreePeople.swift */; };
 		18A3980729586C5200BBF7C2 /* CloseSameChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3980629586C5200BBF7C2 /* CloseSameChar.swift */; };
+		7647897829FBB08000B8F072 /* BOJ_2908.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7647897729FBB08000B8F072 /* BOJ_2908.swift */; };
+		7647897A29FBB20B00B8F072 /* BOJ_1152.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7647897929FBB20B00B8F072 /* BOJ_1152.swift */; };
+		7647897C29FBB63B00B8F072 /* PrivacyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7647897B29FBB63B00B8F072 /* PrivacyInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +78,9 @@
 		18A39802295868E700BBF7C2 /* BcterialGrowth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BcterialGrowth.swift; sourceTree = "<group>"; };
 		18A3980429586A3500BBF7C2 /* ThreePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePeople.swift; sourceTree = "<group>"; };
 		18A3980629586C5200BBF7C2 /* CloseSameChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseSameChar.swift; sourceTree = "<group>"; };
+		7647897729FBB08000B8F072 /* BOJ_2908.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2908.swift; sourceTree = "<group>"; };
+		7647897929FBB20B00B8F072 /* BOJ_1152.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1152.swift; sourceTree = "<group>"; };
+		7647897B29FBB63B00B8F072 /* PrivacyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 				1850D8B32945D2B90004BD7E /* BurgerMaker.swift */,
 				18A3980429586A3500BBF7C2 /* ThreePeople.swift */,
 				18A3980629586C5200BBF7C2 /* CloseSameChar.swift */,
+				7647897B29FBB63B00B8F072 /* PrivacyInfo.swift */,
 			);
 			path = LEVEL1;
 			sourceTree = "<group>";
@@ -171,6 +178,8 @@
 				1841B204294F2ED500973DA5 /* BOJ_2480.swift */,
 				1841B206294F3B6C00973DA5 /* BOJ_1284.swift */,
 				1841B209294F43C200973DA5 /* BOJ_5597.swift */,
+				7647897729FBB08000B8F072 /* BOJ_2908.swift */,
+				7647897929FBB20B00B8F072 /* BOJ_1152.swift */,
 			);
 			path = BRONZE;
 			sourceTree = "<group>";
@@ -221,7 +230,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					18742C76291171E900E09755 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -252,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A3980529586A3500BBF7C2 /* ThreePeople.swift in Sources */,
+				7647897829FBB08000B8F072 /* BOJ_2908.swift in Sources */,
 				18742FFB2911786B00B6B191 /* BOJ_1264.swift in Sources */,
 				186138A1293CC26C002AAD45 /* BOJ_11720.swift in Sources */,
+				7647897A29FBB20B00B8F072 /* BOJ_1152.swift in Sources */,
 				184563702920CF7400BDC8DD /* BOJ_2884.swift in Sources */,
 				1845636A2920C7C300BDC8DD /* BOJ_9498.swift in Sources */,
 				1845636C2920CC3B00BDC8DD /* BOJ_2753.swift in Sources */,
@@ -268,6 +279,7 @@
 				185F8B4F29309FF8007664A2 /* BOJ_10807.swift in Sources */,
 				18742FF92911743C00B6B191 /* BOJ_1000.swift in Sources */,
 				1845636E2920CE6D00BDC8DD /* BOJ_14681.swift in Sources */,
+				7647897C29FBB63B00B8F072 /* PrivacyInfo.swift in Sources */,
 				1850D8B42945D2B90004BD7E /* BurgerMaker.swift in Sources */,
 				1850D8B62945F11A0004BD7E /* BOJ_2562.swift in Sources */,
 				189B3AC0291E244200B1895E /* BOJ_4673.swift in Sources */,
@@ -316,6 +328,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -376,6 +389,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -400,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RF7GLLKTJB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RF7GLLKTJB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

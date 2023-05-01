@@ -36,4 +36,10 @@
 //answer_BOJ_과제안내신분_5597()
 //growBcterial(2, 10)
 //print(threePeople([-2, 3, 0, 2, -5]))
-print(findSameChar("foobar"))
+//print(findSameChar("foobar"))
+//answer_BOJ_상수_2908()
+//answer_BOJ_단어의개수_1152()
+print(
+    solution("2022.05.19", ["A 6", "B 12", "C 3"], ["2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"])
+//    solution("2020.01.01",    ["Z 3", "D 5"],    ["2019.01.01 D", "2019.11.15 Z", "2019.08.02 D", "2019.07.01 D", "2018.12.28 Z"])
+)

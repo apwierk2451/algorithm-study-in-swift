@@ -8,7 +8,7 @@
 import Foundation
 
 func answer_BOJ_숫자의합_11720() {
-    let T = Int(readLine()!)!
+    
     let num = readLine()!
     var result = 0
     num.forEach { char in
